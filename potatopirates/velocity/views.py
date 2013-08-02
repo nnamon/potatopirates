@@ -5,6 +5,7 @@ from django.core.exceptions import ObjectDoesNotExist
 import json
 from django.views.decorators.csrf import csrf_exempt
 import dateutil.parser
+from velocity.analytics import *
 
 def getCustomerProfile(rid):
     try:
@@ -32,7 +33,7 @@ def purchases(request, rid):
             purchases = Purchase.objects.filter(receipt_id=i)
             for j in purchases:
                 product = j.product_id
-                curr_p = {'name': product.name, 'price': float(j.price), 'store': product.store_id.name}
+                curr_p = {'pid': product.id, 'name': product.name, 'price': float(j.price), 'store': product.store_id.name}
                 data[key].append(curr_p)
         return HttpResponse(json.dumps(data))
     else:
@@ -55,7 +56,54 @@ def purchased(request, rid):
         return HttpResponse("0")
 
 def recommended(request, rid):
-    if getCustomerProfile(rid):
-        return HttpResponse("recommended")
+    customer = getCustomerProfile(rid)
+    if customer:
+        suggest_pair = customer_trends_also_bought(rid)
+        products = []
+        for i in suggest_pair:
+            rec = i[0]
+            bec = i[1]
+            r_p = {'pid': rec.id, 'name': rec.name, 'price': float(rec.price), 'store': rec.store_id.name}
+            b_p = {'pid': bec.id, 'name': bec.name, 'price': float(bec.price), 'store': bec.store_id.name}
+            fields = {'recommendation': r_p, 'because': b_p}
+            products.append(fields)
+        return HttpResponse(json.dumps(products))
+    else:
+        return HttpResponse("0")
+
+def popular(request):
+    products = []
+    for i in popular_products()[:10]:
+        p = i[0]
+        curr_p = {'pid': p.id, 'name': p.name, 'price': float(p.price), 'store': p.store_id.name}
+        products.append(curr_p)
+    return HttpResponse(json.dumps(products))
+
+def productothersbought(request, pid):
+    try:
+        product = Product.objects.get(id=pid)
+        othersbought = others_also_bought(product)
+        products = []
+        for i in othersbought:
+            p = i[0]
+            curr_p = {'pid': p.id, 'name': p.name, 'price': float(p.price), 'store': p.store_id.name}
+            products.append(curr_p)
+        return HttpResponse(json.dumps(products))
+    except ObjectDoesNotExist:
+        return HttpResponse("0")
+
+def statistics(request, rid):
+    customer = getCustomerProfile(rid)
+    if customer:
+        receipts = Receipt.objects.filter(customer_id=customer)
+        total_spent = 0
+        no_purchases = 0
+        for i in receipts:
+            purchases = Purchase.objects.filter(receipt_id=i)
+            for i in purchases:
+                total_spent += i.price
+                no_purchases += 1
+        stats = {'total_spent': float(total_spent), 'times_shopped': len(receipts), 'items_purchased': no_purchases}
+        return HttpResponse(json.dumps(stats))
     else:
         return HttpResponse("0")

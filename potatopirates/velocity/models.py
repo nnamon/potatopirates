@@ -27,7 +27,7 @@ class Receipt(models.Model):
     time = models.DateTimeField()
 
     def __unicode__(self):
-        return "%s (%s)" % (self.id ,self.customer_rfid)
+        return "%s (%s)" % (self.id ,self.customer_id)
 
 class Purchase(models.Model):
     receipt_id = models.ForeignKey("Receipt")
