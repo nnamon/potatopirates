@@ -1,0 +1,36 @@
+#######################################
+# Syntax Coloring Map For Ethernet
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+RFID	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+Write_MFRC522	KEYWORD2
+Read_MFRC522	KEYWORD2
+SetBitMask	KEYWORD2
+ClearBitMask	KEYWORD2
+AntennaOn	KEYWORD2
+AntennaOff	KEYWORD2
+MFRC522_Reset	KEYWORD2
+MFRC522_Init	KEYWORD2
+MFRC522_Request	KEYWORD2
+MFRC522_ToCard	KEYWORD2
+MFRC522_Anticoll	KEYWORD2
+CalulateCRC	KEYWORD2
+MFRC522_SelectTag	KEYWORD2
+MFRC522_Auth	KEYWORD2
+MFRC522_Read	KEYWORD2
+MFRC522_Write	KEYWORD2
+MFRC522_Halt	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+

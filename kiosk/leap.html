@@ -1,0 +1,67 @@
+<html>
+<head>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/leap.js"></script>
+	<script src="js/leap_script.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div id="square"></div>
+
+	<div id="calibrate-group" style="display: none;">
+		<div id="cal-1" class="calibrate">1</div>
+		<div id="cal-2" class="calibrate">2</div>
+		<div id="cal-3" class="calibrate">3</div>
+	</div>
+	
+	<div id="popup-group" style="display: none">
+		<div class="content"></div>
+		<div class="overlay"></div>
+	</div>
+	
+	<div id="ad-content">
+		<img src="images/ads/ad_1.png" class="ad-img"/>
+		<img src="images/ads/ad_2.png" class="ad-img"/>
+		<img src="images/ads/ad_3.png" class="ad-img"/>
+	</div>
+	
+	<div id="near-content" style="display: none;">
+		<div class="header">
+			<h1 align="center">Information</h1>
+		</div>
+		<div class="content">
+			<h1 align="center">View your transactions by placing your RFID card here!!</h1>
+		</div>
+	</div>
+	
+	<!-- Home Content -->
+	<div id="home-content-default" style="display: none;">
+		<div class="header">
+			<h1 align="center">Welcome to My System</h1>
+		</div>
+		<div class="content">
+			<div class="loading-msg">
+				<h2 align="center">Please wait while we retrieve your record...</h2>
+			</div>
+			<div class="functions">
+				<div id="view-trans">View Transactions</div>
+				<div id="view-related">View Related Products</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="home-content" style="display: none";></div>
+	
+	<!-- RFID Content -->
+	<div id="trans-content" style="display: none">
+		<div class="header">
+			<div class="back-home">
+				<div class="link"><< Back to Home</div>
+			</div>
+			<h1 align="center">Viewing Transactions</h1>
+			<div class="clear"></div>
+		</div>
+		<div class="content"></div>
+	</div>
+</body>
+</html>
