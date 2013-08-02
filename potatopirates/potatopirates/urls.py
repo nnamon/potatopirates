@@ -9,4 +9,8 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^(?P<rid>[A-F0-9]+)/$', 'velocity.views.login'),
+    url(r'^(?P<rid>[A-F0-9]+)/purchases/$', 'velocity.views.purchases'),
+    url(r'^(?P<rid>[A-F0-9]+)/recommended/$', 'velocity.views.recommended'),
+    url(r'^(?P<rid>[A-F0-9]+)/purchased/$', 'velocity.views.purchased'),
 )

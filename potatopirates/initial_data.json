@@ -1,0 +1,282 @@
+[{
+    "pk": 1,
+    "model": "velocity.store",
+    "fields": {
+        "name": "Cool New Store"
+    }
+}, {
+    "pk": 0,
+    "model": "velocity.product",
+    "fields": {
+        "price": 5838.64,
+        "name": "Shoddy Corny Mouse",
+        "store_id": 1
+    }
+}, {
+    "pk": 1,
+    "model": "velocity.product",
+    "fields": {
+        "price": 8627.7,
+        "name": "Awesome Ugly Bottle",
+        "store_id": 1
+    }
+}, {
+    "pk": 2,
+    "model": "velocity.product",
+    "fields": {
+        "price": 3674.41,
+        "name": "Boring Shoddy Stick",
+        "store_id": 1
+    }
+}, {
+    "pk": 3,
+    "model": "velocity.product",
+    "fields": {
+        "price": 6174.96,
+        "name": "Evil Exciting Mouse",
+        "store_id": 1
+    }
+}, {
+    "pk": 4,
+    "model": "velocity.product",
+    "fields": {
+        "price": 541.54,
+        "name": "Corny Boring Shorts",
+        "store_id": 1
+    }
+}, {
+    "pk": 5,
+    "model": "velocity.product",
+    "fields": {
+        "price": 1851.89,
+        "name": "Awesome Smelly Wall",
+        "store_id": 1
+    }
+}, {
+    "pk": 6,
+    "model": "velocity.product",
+    "fields": {
+        "price": 8204.56,
+        "name": "Short Exciting Shoe",
+        "store_id": 1
+    }
+}, {
+    "pk": 7,
+    "model": "velocity.product",
+    "fields": {
+        "price": 6268.91,
+        "name": "Pretty Intelligent Wall",
+        "store_id": 1
+    }
+}, {
+    "pk": 8,
+    "model": "velocity.product",
+    "fields": {
+        "price": 7308.41,
+        "name": "Awesome Amazing Stick",
+        "store_id": 1
+    }
+}, {
+    "pk": 9,
+    "model": "velocity.product",
+    "fields": {
+        "price": 8787.8,
+        "name": "Good Smelly Boot",
+        "store_id": 1
+    }
+}, {
+    "pk": 10,
+    "model": "velocity.product",
+    "fields": {
+        "price": 1710.46,
+        "name": "Squarish Intelligent Paper",
+        "store_id": 1
+    }
+}, {
+    "pk": 11,
+    "model": "velocity.product",
+    "fields": {
+        "price": 4063.47,
+        "name": "Ugly Boring Box",
+        "store_id": 1
+    }
+}, {
+    "pk": 12,
+    "model": "velocity.product",
+    "fields": {
+        "price": 9713.27,
+        "name": "Awesome Good Case",
+        "store_id": 1
+    }
+}, {
+    "pk": 13,
+    "model": "velocity.product",
+    "fields": {
+        "price": 9536.97,
+        "name": "Good Long Box",
+        "store_id": 1
+    }
+}, {
+    "pk": 14,
+    "model": "velocity.product",
+    "fields": {
+        "price": 3925.85,
+        "name": "Squarish Intelligent Laptop",
+        "store_id": 1
+    }
+}, {
+    "pk": 15,
+    "model": "velocity.product",
+    "fields": {
+        "price": 888.22,
+        "name": "Squarish Round Bottle",
+        "store_id": 1
+    }
+}, {
+    "pk": 16,
+    "model": "velocity.product",
+    "fields": {
+        "price": 5018.78,
+        "name": "Pretty Squarish Cap",
+        "store_id": 1
+    }
+}, {
+    "pk": 17,
+    "model": "velocity.product",
+    "fields": {
+        "price": 2046.41,
+        "name": "Round Evil Paper",
+        "store_id": 1
+    }
+}, {
+    "pk": 18,
+    "model": "velocity.product",
+    "fields": {
+        "price": 468.9,
+        "name": "Rosy Amazing Boot",
+        "store_id": 1
+    }
+}, {
+    "pk": 19,
+    "model": "velocity.product",
+    "fields": {
+        "price": 2733.6,
+        "name": "Corny Exciting Boot",
+        "store_id": 1
+    }
+}, {
+    "pk": 1,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "16E63"
+    }
+}, {
+    "pk": 2,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "79E07"
+    }
+}, {
+    "pk": 3,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "70F4C"
+    }
+}, {
+    "pk": 4,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "74391"
+    }
+}, {
+    "pk": 5,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "25733"
+    }
+}, {
+    "pk": 6,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "8208A"
+    }
+}, {
+    "pk": 7,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "53BB8"
+    }
+}, {
+    "pk": 8,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "E5B36"
+    }
+}, {
+    "pk": 9,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "05CDB"
+    }
+}, {
+    "pk": 10,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "D8D24"
+    }
+}, {
+    "pk": 11,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "70832"
+    }
+}, {
+    "pk": 12,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "0E92A"
+    }
+}, {
+    "pk": 13,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "BC09F"
+    }
+}, {
+    "pk": 14,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "6B196"
+    }
+}, {
+    "pk": 1,
+    "model": "velocity.receipt",
+    "fields": {
+        "customer_id": 1,
+        "time": "2013-08-02T16:05:09.680Z"
+    }
+}, {
+    "pk": 1,
+    "model": "velocity.purchase",
+    "fields": {
+        "price": "10.99",
+        "product_id": 1,
+        "receipt_id": 1
+    }
+}, {
+    "pk": 2,
+    "model": "velocity.purchase",
+    "fields": {
+        "price": "7.99",
+        "product_id": 2,
+        "receipt_id": 1
+    }
+}, {
+    "pk": 3,
+    "model": "velocity.purchase",
+    "fields": {
+        "price": "1.99",
+        "product_id": 3,
+        "receipt_id": 1
+    }
+}]
