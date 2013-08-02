@@ -1,0 +1,981 @@
+[{
+    "pk": 0,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "90D9B"
+    }
+}, {
+    "pk": 1,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "AD5BE"
+    }
+}, {
+    "pk": 2,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "EF5E6"
+    }
+}, {
+    "pk": 3,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "05BD3"
+    }
+}, {
+    "pk": 4,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "9F9EC"
+    }
+}, {
+    "pk": 5,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "CE96D"
+    }
+}, {
+    "pk": 6,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "552EF"
+    }
+}, {
+    "pk": 7,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "C0988"
+    }
+}, {
+    "pk": 8,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "31B10"
+    }
+}, {
+    "pk": 9,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "806BB"
+    }
+}, {
+    "pk": 10,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "39977"
+    }
+}, {
+    "pk": 11,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "B32A2"
+    }
+}, {
+    "pk": 12,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "B2EF1"
+    }
+}, {
+    "pk": 13,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "B58BF"
+    }
+}, {
+    "pk": 14,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "CB691"
+    }
+}, {
+    "pk": 15,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "CC88F"
+    }
+}, {
+    "pk": 16,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "4C10E"
+    }
+}, {
+    "pk": 17,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "4359D"
+    }
+}, {
+    "pk": 18,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "6A895"
+    }
+}, {
+    "pk": 19,
+    "model": "velocity.customerprofile",
+    "fields": {
+        "rfid": "2EC2E"
+    }
+}, {
+    "pk": 0,
+    "model": "velocity.store",
+    "fields": {
+        "name": "Exciting Hyperion Boutique"
+    }
+}, {
+    "pk": 1,
+    "model": "velocity.store",
+    "fields": {
+        "name": "Murderous Japanese Cosmetics"
+    }
+}, {
+    "pk": 2,
+    "model": "velocity.store",
+    "fields": {
+        "name": "Corny European Diner"
+    }
+}, {
+    "pk": 3,
+    "model": "velocity.store",
+    "fields": {
+        "name": "Ugly French Cosmetics"
+    }
+}, {
+    "pk": 4,
+    "model": "velocity.store",
+    "fields": {
+        "name": "Murderous European Store"
+    }
+}, {
+    "pk": 5,
+    "model": "velocity.store",
+    "fields": {
+        "name": "Boring Turkish Store"
+    }
+}, {
+    "pk": 6,
+    "model": "velocity.store",
+    "fields": {
+        "name": "Long Hyperion Haven"
+    }
+}, {
+    "pk": 7,
+    "model": "velocity.store",
+    "fields": {
+        "name": "Smelly Mongolian Boutique"
+    }
+}, {
+    "pk": 8,
+    "model": "velocity.store",
+    "fields": {
+        "name": "Round Hungarian Shop"
+    }
+}, {
+    "pk": 9,
+    "model": "velocity.store",
+    "fields": {
+        "name": "Awesome Mongolian Diner"
+    }
+}, {
+    "pk": 0,
+    "model": "velocity.product",
+    "fields": {
+        "price": 873.7,
+        "name": "Shoddy Murderous Bottle",
+        "store_id": 2
+    }
+}, {
+    "pk": 1,
+    "model": "velocity.product",
+    "fields": {
+        "price": 7297.17,
+        "name": "Round Good Reindeer",
+        "store_id": 6
+    }
+}, {
+    "pk": 2,
+    "model": "velocity.product",
+    "fields": {
+        "price": 3356.39,
+        "name": "Squarish Good Laptop",
+        "store_id": 7
+    }
+}, {
+    "pk": 3,
+    "model": "velocity.product",
+    "fields": {
+        "price": 5472.37,
+        "name": "Amazing Round Stick",
+        "store_id": 8
+    }
+}, {
+    "pk": 4,
+    "model": "velocity.product",
+    "fields": {
+        "price": 8599.93,
+        "name": "Evil Long Shoe",
+        "store_id": 9
+    }
+}, {
+    "pk": 5,
+    "model": "velocity.product",
+    "fields": {
+        "price": 2480.56,
+        "name": "Ugly Intelligent Dog",
+        "store_id": 8
+    }
+}, {
+    "pk": 6,
+    "model": "velocity.product",
+    "fields": {
+        "price": 5185.41,
+        "name": "Round Long Shorts",
+        "store_id": 1
+    }
+}, {
+    "pk": 7,
+    "model": "velocity.product",
+    "fields": {
+        "price": 2872.09,
+        "name": "Ugly Smelly Paper",
+        "store_id": 3
+    }
+}, {
+    "pk": 8,
+    "model": "velocity.product",
+    "fields": {
+        "price": 537.26,
+        "name": "Ugly Amazing Hat",
+        "store_id": 2
+    }
+}, {
+    "pk": 9,
+    "model": "velocity.product",
+    "fields": {
+        "price": 3089.54,
+        "name": "Squarish Evil Bottle",
+        "store_id": 5
+    }
+}, {
+    "pk": 10,
+    "model": "velocity.product",
+    "fields": {
+        "price": 9250.47,
+        "name": "Round Good Mouse",
+        "store_id": 8
+    }
+}, {
+    "pk": 11,
+    "model": "velocity.product",
+    "fields": {
+        "price": 2022.39,
+        "name": "Squarish Murderous Box",
+        "store_id": 9
+    }
+}, {
+    "pk": 12,
+    "model": "velocity.product",
+    "fields": {
+        "price": 8485.95,
+        "name": "Pretty Exciting Box",
+        "store_id": 9
+    }
+}, {
+    "pk": 13,
+    "model": "velocity.product",
+    "fields": {
+        "price": 3193.38,
+        "name": "Awesome Short Boot",
+        "store_id": 5
+    }
+}, {
+    "pk": 14,
+    "model": "velocity.product",
+    "fields": {
+        "price": 5791.66,
+        "name": "Long Good Mouse",
+        "store_id": 8
+    }
+}, {
+    "pk": 15,
+    "model": "velocity.product",
+    "fields": {
+        "price": 7157.68,
+        "name": "Amazing Rosy Box",
+        "store_id": 4
+    }
+}, {
+    "pk": 16,
+    "model": "velocity.product",
+    "fields": {
+        "price": 9965.67,
+        "name": "Murderous Short Stick",
+        "store_id": 9
+    }
+}, {
+    "pk": 17,
+    "model": "velocity.product",
+    "fields": {
+        "price": 8744.86,
+        "name": "Evil Corny Reindeer",
+        "store_id": 1
+    }
+}, {
+    "pk": 18,
+    "model": "velocity.product",
+    "fields": {
+        "price": 119.12,
+        "name": "Smelly Squarish Mouse",
+        "store_id": 3
+    }
+}, {
+    "pk": 19,
+    "model": "velocity.product",
+    "fields": {
+        "price": 4441.8,
+        "name": "Boring Murderous Mouse",
+        "store_id": 3
+    }
+}, {
+    "pk": 20,
+    "model": "velocity.product",
+    "fields": {
+        "price": 7601.39,
+        "name": "Intelligent Shoddy Box",
+        "store_id": 2
+    }
+}, {
+    "pk": 21,
+    "model": "velocity.product",
+    "fields": {
+        "price": 7908.86,
+        "name": "Pretty Ugly Reindeer",
+        "store_id": 2
+    }
+}, {
+    "pk": 22,
+    "model": "velocity.product",
+    "fields": {
+        "price": 9828.2,
+        "name": "Amazing Exciting Wall",
+        "store_id": 9
+    }
+}, {
+    "pk": 23,
+    "model": "velocity.product",
+    "fields": {
+        "price": 2698.93,
+        "name": "Long Murderous Stick",
+        "store_id": 7
+    }
+}, {
+    "pk": 24,
+    "model": "velocity.product",
+    "fields": {
+        "price": 7160.42,
+        "name": "Pretty Long Reindeer",
+        "store_id": 8
+    }
+}, {
+    "pk": 25,
+    "model": "velocity.product",
+    "fields": {
+        "price": 1903.44,
+        "name": "Exciting Short Pen",
+        "store_id": 3
+    }
+}, {
+    "pk": 26,
+    "model": "velocity.product",
+    "fields": {
+        "price": 4498.87,
+        "name": "Short Poor Boot",
+        "store_id": 1
+    }
+}, {
+    "pk": 27,
+    "model": "velocity.product",
+    "fields": {
+        "price": 9706.96,
+        "name": "Poor Evil Laptop",
+        "store_id": 4
+    }
+}, {
+    "pk": 28,
+    "model": "velocity.product",
+    "fields": {
+        "price": 8398.02,
+        "name": "Short Pretty Laptop",
+        "store_id": 6
+    }
+}, {
+    "pk": 29,
+    "model": "velocity.product",
+    "fields": {
+        "price": 2737.98,
+        "name": "Exciting Murderous Box",
+        "store_id": 2
+    }
+}, {
+    "pk": 30,
+    "model": "velocity.product",
+    "fields": {
+        "price": 3910.35,
+        "name": "Amazing Squarish Balloon",
+        "store_id": 2
+    }
+}, {
+    "pk": 31,
+    "model": "velocity.product",
+    "fields": {
+        "price": 4311.94,
+        "name": "Smelly Ugly Mouse",
+        "store_id": 3
+    }
+}, {
+    "pk": 32,
+    "model": "velocity.product",
+    "fields": {
+        "price": 5371.72,
+        "name": "Rosy Short Laptop",
+        "store_id": 1
+    }
+}, {
+    "pk": 33,
+    "model": "velocity.product",
+    "fields": {
+        "price": 4281.37,
+        "name": "Evil Awesome Boot",
+        "store_id": 1
+    }
+}, {
+    "pk": 34,
+    "model": "velocity.product",
+    "fields": {
+        "price": 8476.33,
+        "name": "Poor Murderous Wall",
+        "store_id": 9
+    }
+}, {
+    "pk": 35,
+    "model": "velocity.product",
+    "fields": {
+        "price": 6179.05,
+        "name": "Boring Boring Case",
+        "store_id": 3
+    }
+}, {
+    "pk": 36,
+    "model": "velocity.product",
+    "fields": {
+        "price": 6675.14,
+        "name": "Amazing Amazing Boot",
+        "store_id": 5
+    }
+}, {
+    "pk": 37,
+    "model": "velocity.product",
+    "fields": {
+        "price": 3272.78,
+        "name": "Pretty Intelligent Laptop",
+        "store_id": 9
+    }
+}, {
+    "pk": 38,
+    "model": "velocity.product",
+    "fields": {
+        "price": 2653.85,
+        "name": "Awesome Short Bottle",
+        "store_id": 3
+    }
+}, {
+    "pk": 39,
+    "model": "velocity.product",
+    "fields": {
+        "price": 7858.57,
+        "name": "Rosy Long Mouse",
+        "store_id": 1
+    }
+}, {
+    "pk": 40,
+    "model": "velocity.product",
+    "fields": {
+        "price": 4278.3,
+        "name": "Long Murderous Hat",
+        "store_id": 6
+    }
+}, {
+    "pk": 41,
+    "model": "velocity.product",
+    "fields": {
+        "price": 5678.4,
+        "name": "Shoddy Rosy Balloon",
+        "store_id": 6
+    }
+}, {
+    "pk": 42,
+    "model": "velocity.product",
+    "fields": {
+        "price": 4648.34,
+        "name": "Rosy Good Wall",
+        "store_id": 7
+    }
+}, {
+    "pk": 43,
+    "model": "velocity.product",
+    "fields": {
+        "price": 7183.58,
+        "name": "Exciting Awesome Wall",
+        "store_id": 8
+    }
+}, {
+    "pk": 44,
+    "model": "velocity.product",
+    "fields": {
+        "price": 4044.4,
+        "name": "Smelly Round Shorts",
+        "store_id": 3
+    }
+}, {
+    "pk": 45,
+    "model": "velocity.product",
+    "fields": {
+        "price": 2118.45,
+        "name": "Short Amazing Shoe",
+        "store_id": 1
+    }
+}, {
+    "pk": 46,
+    "model": "velocity.product",
+    "fields": {
+        "price": 5352.31,
+        "name": "Evil Evil Bottle",
+        "store_id": 2
+    }
+}, {
+    "pk": 47,
+    "model": "velocity.product",
+    "fields": {
+        "price": 8426.73,
+        "name": "Awesome Boring Pen",
+        "store_id": 3
+    }
+}, {
+    "pk": 48,
+    "model": "velocity.product",
+    "fields": {
+        "price": 7605.39,
+        "name": "Short Long Boot",
+        "store_id": 8
+    }
+}, {
+    "pk": 49,
+    "model": "velocity.product",
+    "fields": {
+        "price": 8475.09,
+        "name": "Round Exciting Case",
+        "store_id": 4
+    }
+}, {
+    "pk": 50,
+    "model": "velocity.product",
+    "fields": {
+        "price": 5010.56,
+        "name": "Squarish Intelligent Boot",
+        "store_id": 4
+    }
+}, {
+    "pk": 51,
+    "model": "velocity.product",
+    "fields": {
+        "price": 4170.22,
+        "name": "Evil Smelly Bottle",
+        "store_id": 7
+    }
+}, {
+    "pk": 52,
+    "model": "velocity.product",
+    "fields": {
+        "price": 686.47,
+        "name": "Corny Long Cap",
+        "store_id": 7
+    }
+}, {
+    "pk": 53,
+    "model": "velocity.product",
+    "fields": {
+        "price": 7833.25,
+        "name": "Poor Intelligent Cap",
+        "store_id": 3
+    }
+}, {
+    "pk": 54,
+    "model": "velocity.product",
+    "fields": {
+        "price": 6815.21,
+        "name": "Ugly Long Case",
+        "store_id": 3
+    }
+}, {
+    "pk": 55,
+    "model": "velocity.product",
+    "fields": {
+        "price": 6871.37,
+        "name": "Good Amazing Laptop",
+        "store_id": 1
+    }
+}, {
+    "pk": 56,
+    "model": "velocity.product",
+    "fields": {
+        "price": 3072.21,
+        "name": "Good Murderous Wall",
+        "store_id": 8
+    }
+}, {
+    "pk": 57,
+    "model": "velocity.product",
+    "fields": {
+        "price": 7482.12,
+        "name": "Poor Awesome Paper",
+        "store_id": 6
+    }
+}, {
+    "pk": 58,
+    "model": "velocity.product",
+    "fields": {
+        "price": 3497.85,
+        "name": "Intelligent Corny Boot",
+        "store_id": 5
+    }
+}, {
+    "pk": 59,
+    "model": "velocity.product",
+    "fields": {
+        "price": 2279.23,
+        "name": "Ugly Smelly Bottle",
+        "store_id": 9
+    }
+}, {
+    "pk": 60,
+    "model": "velocity.product",
+    "fields": {
+        "price": 2271.92,
+        "name": "Smelly Long Ant",
+        "store_id": 1
+    }
+}, {
+    "pk": 61,
+    "model": "velocity.product",
+    "fields": {
+        "price": 6141.09,
+        "name": "Round Squarish Mouse",
+        "store_id": 8
+    }
+}, {
+    "pk": 62,
+    "model": "velocity.product",
+    "fields": {
+        "price": 5931.63,
+        "name": "Intelligent Long Laptop",
+        "store_id": 3
+    }
+}, {
+    "pk": 63,
+    "model": "velocity.product",
+    "fields": {
+        "price": 6351.5,
+        "name": "Amazing Squarish Ant",
+        "store_id": 1
+    }
+}, {
+    "pk": 64,
+    "model": "velocity.product",
+    "fields": {
+        "price": 2822.26,
+        "name": "Awesome Awesome Ant",
+        "store_id": 6
+    }
+}, {
+    "pk": 65,
+    "model": "velocity.product",
+    "fields": {
+        "price": 5214.35,
+        "name": "Rosy Poor Balloon",
+        "store_id": 4
+    }
+}, {
+    "pk": 66,
+    "model": "velocity.product",
+    "fields": {
+        "price": 3891.67,
+        "name": "Poor Long Laptop",
+        "store_id": 6
+    }
+}, {
+    "pk": 67,
+    "model": "velocity.product",
+    "fields": {
+        "price": 7004.91,
+        "name": "Poor Murderous Shorts",
+        "store_id": 3
+    }
+}, {
+    "pk": 68,
+    "model": "velocity.product",
+    "fields": {
+        "price": 4719.27,
+        "name": "Pretty Round Cap",
+        "store_id": 9
+    }
+}, {
+    "pk": 69,
+    "model": "velocity.product",
+    "fields": {
+        "price": 5903.87,
+        "name": "Evil Boring Mouse",
+        "store_id": 9
+    }
+}, {
+    "pk": 70,
+    "model": "velocity.product",
+    "fields": {
+        "price": 1038.92,
+        "name": "Shoddy Pretty Dog",
+        "store_id": 9
+    }
+}, {
+    "pk": 71,
+    "model": "velocity.product",
+    "fields": {
+        "price": 5614.52,
+        "name": "Smelly Pretty Case",
+        "store_id": 4
+    }
+}, {
+    "pk": 72,
+    "model": "velocity.product",
+    "fields": {
+        "price": 4369.12,
+        "name": "Intelligent Awesome Laptop",
+        "store_id": 3
+    }
+}, {
+    "pk": 73,
+    "model": "velocity.product",
+    "fields": {
+        "price": 3799.52,
+        "name": "Corny Intelligent Boot",
+        "store_id": 6
+    }
+}, {
+    "pk": 74,
+    "model": "velocity.product",
+    "fields": {
+        "price": 9570.58,
+        "name": "Pretty Amazing Pen",
+        "store_id": 7
+    }
+}, {
+    "pk": 75,
+    "model": "velocity.product",
+    "fields": {
+        "price": 9899.15,
+        "name": "Squarish Smelly Wall",
+        "store_id": 4
+    }
+}, {
+    "pk": 76,
+    "model": "velocity.product",
+    "fields": {
+        "price": 6662.13,
+        "name": "Intelligent Shoddy Pen",
+        "store_id": 4
+    }
+}, {
+    "pk": 77,
+    "model": "velocity.product",
+    "fields": {
+        "price": 9042.73,
+        "name": "Pretty Rosy Shorts",
+        "store_id": 2
+    }
+}, {
+    "pk": 78,
+    "model": "velocity.product",
+    "fields": {
+        "price": 9773.11,
+        "name": "Round Round Laptop",
+        "store_id": 1
+    }
+}, {
+    "pk": 79,
+    "model": "velocity.product",
+    "fields": {
+        "price": 8472.85,
+        "name": "Awesome Boring Laptop",
+        "store_id": 1
+    }
+}, {
+    "pk": 80,
+    "model": "velocity.product",
+    "fields": {
+        "price": 8532.6,
+        "name": "Smelly Squarish Mouse",
+        "store_id": 7
+    }
+}, {
+    "pk": 81,
+    "model": "velocity.product",
+    "fields": {
+        "price": 8783.79,
+        "name": "Poor Poor Stick",
+        "store_id": 3
+    }
+}, {
+    "pk": 82,
+    "model": "velocity.product",
+    "fields": {
+        "price": 1895.18,
+        "name": "Poor Murderous Boot",
+        "store_id": 2
+    }
+}, {
+    "pk": 83,
+    "model": "velocity.product",
+    "fields": {
+        "price": 4874.01,
+        "name": "Rosy Squarish Case",
+        "store_id": 7
+    }
+}, {
+    "pk": 84,
+    "model": "velocity.product",
+    "fields": {
+        "price": 9231.66,
+        "name": "Ugly Amazing Wall",
+        "store_id": 6
+    }
+}, {
+    "pk": 85,
+    "model": "velocity.product",
+    "fields": {
+        "price": 3715.85,
+        "name": "Pretty Amazing Mouse",
+        "store_id": 8
+    }
+}, {
+    "pk": 86,
+    "model": "velocity.product",
+    "fields": {
+        "price": 1496.03,
+        "name": "Evil Pretty Boot",
+        "store_id": 2
+    }
+}, {
+    "pk": 87,
+    "model": "velocity.product",
+    "fields": {
+        "price": 6668.04,
+        "name": "Good Rosy Box",
+        "store_id": 4
+    }
+}, {
+    "pk": 88,
+    "model": "velocity.product",
+    "fields": {
+        "price": 310.77,
+        "name": "Amazing Shoddy Stick",
+        "store_id": 9
+    }
+}, {
+    "pk": 89,
+    "model": "velocity.product",
+    "fields": {
+        "price": 318.51,
+        "name": "Smelly Good Boot",
+        "store_id": 9
+    }
+}, {
+    "pk": 90,
+    "model": "velocity.product",
+    "fields": {
+        "price": 525.48,
+        "name": "Murderous Squarish Dog",
+        "store_id": 9
+    }
+}, {
+    "pk": 91,
+    "model": "velocity.product",
+    "fields": {
+        "price": 9476.91,
+        "name": "Evil Good Ant",
+        "store_id": 6
+    }
+}, {
+    "pk": 92,
+    "model": "velocity.product",
+    "fields": {
+        "price": 7634.9,
+        "name": "Short Smelly Shoe",
+        "store_id": 5
+    }
+}, {
+    "pk": 93,
+    "model": "velocity.product",
+    "fields": {
+        "price": 9566.62,
+        "name": "Exciting Murderous Reindeer",
+        "store_id": 6
+    }
+}, {
+    "pk": 94,
+    "model": "velocity.product",
+    "fields": {
+        "price": 8244.98,
+        "name": "Round Short Box",
+        "store_id": 3
+    }
+}, {
+    "pk": 95,
+    "model": "velocity.product",
+    "fields": {
+        "price": 1879.88,
+        "name": "Boring Round Mouse",
+        "store_id": 2
+    }
+}, {
+    "pk": 96,
+    "model": "velocity.product",
+    "fields": {
+        "price": 7801.37,
+        "name": "Short Boring Stick",
+        "store_id": 3
+    }
+}, {
+    "pk": 97,
+    "model": "velocity.product",
+    "fields": {
+        "price": 2227.72,
+        "name": "Exciting Intelligent Paper",
+        "store_id": 8
+    }
+}, {
+    "pk": 98,
+    "model": "velocity.product",
+    "fields": {
+        "price": 6558.98,
+        "name": "Good Exciting Laptop",
+        "store_id": 6
+    }
+}, {
+    "pk": 99,
+    "model": "velocity.product",
+    "fields": {
+        "price": 2910.06,
+        "name": "Pretty Short Pen",
+        "store_id": 8
+    }
+}]
